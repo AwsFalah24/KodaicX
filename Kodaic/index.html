@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodaic | Premium Web Solutions</title>
+    <meta name="description"
+        content="Professional website creation services. Modern, responsive, and high-performance websites for your business.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/clover/stripe.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Kodaic<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="animate-up">We Build <span class="text-gradient">Digital Experiences</span> That Matter</h1>
+            <p class="animate-up delay-1">Premium website design and development services tailored to your business
+                needs. Elevate your brand with a modern, high-performance web presence.</p>
+            <div class="hero-btns animate-up delay-2">
+                <a href="#pricing" class="btn btn-primary">View Plans</a>
+                <a href="#portfolio" class="btn btn-outline">Our Work</a>
+            </div>
+        </div>
+        <div class="hero-bg-glow"></div>
+    </header>
+
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="accent">Services</span></h2>
+                <p>Comprehensive web solutions to help you grow.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass">
+                    <div class="icon">🎨</div>
+                    <h3>Custom Design</h3>
+                    <p>Unique, tailored designs that reflect your brand identity and captivate your audience.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="icon">⚡</div>
+                    <h3>High Performance</h3>
+                    <p>Blazing fast load times and optimized code for the best user experience and SEO ranking.</p>
+                </div>
+                <div class="service-card glass">
+                    <div class="icon">📱</div>
+                    <h3>Fully Responsive</h3>
+                    <p>Websites that look and function perfectly on all devices, from desktops to mobile phones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Selected <span class="accent">Work</span></h2>
+                <p>A glimpse into what we can create for you.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Placeholders for portfolio items -->
+                <div class="portfolio-item glass">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-info">
+                        <h3>E-Commerce Brand</h3>
+                        <p>Modern online store</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-info">
+                        <h3>Tech Startup</h3>
+                        <p>Landing page & dashboard</p>
+                    </div>
+                </div>
+                <div class="portfolio-item glass">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-info">
+                        <h3>Creative Agency</h3>
+                        <p>Portfolio website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple <span class="accent">Pricing</span></h2>
+                <p>Transparent packages for your next project.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card glass">
+                    <h3>Starter</h3>
+                    <div class="price">$999</div>
+                    <ul>
+                        <li>5 Page Website</li>
+                        <li>Mobile Responsive</li>
+                        <li>Basic SEO</li>
+                        <li>Contact Form</li>
+                    </ul>
+                    <!-- Stripe Integration -->
+                    <div class="payment-area">
+                        <a href="https://buy.stripe.com/test_cNibJ0fw4f0oclCeoq3wQ00" class="btn btn-primary full-width"
+                            target="_blank">Book with Stripe</a>
+                        <small>Secure payment via Stripe</small>
+                    </div>
+                </div>
+                <div class="pricing-card glass popular">
+                    <div class="badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$1,999</div>
+                    <ul>
+                        <li>10 Page Website</li>
+                        <li>Advanced SEO</li>
+                        <li>CMS Integration</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <!-- Stripe Integration Placeholder -->
+                    <div class="payment-area">
+                        <a href="contact.html?plan=professional" class="btn btn-primary full-width">Book with Stripe</a>
+                        <small>Secure payment via Stripe</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Kodaic<span class="accent">.</span></h2>
+                    <p>Building the web of tomorrow.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kodaic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
